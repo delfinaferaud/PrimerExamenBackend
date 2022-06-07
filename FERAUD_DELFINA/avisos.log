@@ -1,0 +1,945 @@
+[2022-06-0300:59:53] [ INFO ] [OdontologoDAOH2:25] Guardando el odontológo: Odontologo{id=0, matricula='123', nombre='Delfina', apellido='Feraud'}
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:33] Conexión establecida con la base de datos
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:37] Tabla 'odontologos' creada
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:48] Nuevo registro insertado en la tabla 'odontologos'
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:25] Guardando el odontológo: Odontologo{id=0, matricula='234', nombre='Tomas', apellido='Arce'}
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:33] Conexión establecida con la base de datos
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:37] Tabla 'odontologos' creada
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:48] Nuevo registro insertado en la tabla 'odontologos'
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:25] Guardando el odontológo: Odontologo{id=0, matricula='345', nombre='Camila', apellido='Prado'}
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:33] Conexión establecida con la base de datos
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:37] Tabla 'odontologos' creada
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:48] Nuevo registro insertado en la tabla 'odontologos'
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:97] Buscando todos los odontólogos de la tabla
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:106] Conexión establecida con la base de datos
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:112] Se ejecutó la sentencia SELECT
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:122] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}]
+[2022-06-0300:59:54] [ ERROR] [OdontologoDAOH2:129] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:554)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcResultSet.checkClosed(JdbcResultSet.java:3536)
+	at org.h2.jdbc.JdbcResultSet.next(JdbcResultSet.java:124)
+	at com.company.dao.OdontologoDAOH2.listarTodos(OdontologoDAOH2.java:114)
+	at com.company.service.OdontologoService.listarTodos(OdontologoService.java:34)
+	at com.company.test.OdontologoServiceTest.listarTodosTest(OdontologoServiceTest.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:97] Buscando todos los odontólogos de la tabla
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:106] Conexión establecida con la base de datos
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:112] Se ejecutó la sentencia SELECT
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:122] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}]
+[2022-06-0300:59:54] [ ERROR] [OdontologoDAOH2:129] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:554)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcResultSet.checkClosed(JdbcResultSet.java:3536)
+	at org.h2.jdbc.JdbcResultSet.next(JdbcResultSet.java:124)
+	at com.company.dao.OdontologoDAOH2.listarTodos(OdontologoDAOH2.java:114)
+	at com.company.service.OdontologoService.listarTodos(OdontologoService.java:34)
+	at com.company.test.OdontologoServiceTest.listarTodosTest(OdontologoServiceTest.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:25] Guardando el odontológo: Odontologo{id=0, matricula='365', nombre='Martin', apellido='Gonzalez'}
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:33] Conexión establecida con la base de datos
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:37] Tabla 'odontologos' creada
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:48] Nuevo registro insertado en la tabla 'odontologos'
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:60] Buscando el odontólogo por id 1
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:68] Conexión establecida con la base de datos
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:75] Se ejecutó la sentencia SELECT
+[2022-06-0300:59:54] [ INFO ] [OdontologoDAOH2:84] Obtenido el odontologo: Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:23] Guardando el odontológo: Odontologo{id=0, matricula='123', nombre='Delfina', apellido='Feraud'}
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:31] Conexión establecida con la base de datos
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:45] Nuevo registro insertado en la tabla 'odontologos'
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:23] Guardando el odontológo: Odontologo{id=0, matricula='234', nombre='Tomas', apellido='Arce'}
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:31] Conexión establecida con la base de datos
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:45] Nuevo registro insertado en la tabla 'odontologos'
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:23] Guardando el odontológo: Odontologo{id=0, matricula='345', nombre='Camila', apellido='Prado'}
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:31] Conexión establecida con la base de datos
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:45] Nuevo registro insertado en la tabla 'odontologos'
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:94] Buscando todos los odontólogos de la tabla
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:103] Conexión establecida con la base de datos
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:109] Se ejecutó la sentencia SELECT
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:119] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}]
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:119] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}]
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:119] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}]
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:119] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}]
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:119] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}]
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:119] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=6, matricula='234', nombre='Tomas', apellido='Arce'}]
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:119] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=6, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=7, matricula='345', nombre='Camila', apellido='Prado'}]
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:94] Buscando todos los odontólogos de la tabla
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:103] Conexión establecida con la base de datos
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:109] Se ejecutó la sentencia SELECT
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:119] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}]
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:119] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}]
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:119] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}]
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:119] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}]
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:119] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}]
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:119] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=6, matricula='234', nombre='Tomas', apellido='Arce'}]
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:119] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=6, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=7, matricula='345', nombre='Camila', apellido='Prado'}]
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:23] Guardando el odontológo: Odontologo{id=0, matricula='365', nombre='Martin', apellido='Gonzalez'}
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:31] Conexión establecida con la base de datos
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:45] Nuevo registro insertado en la tabla 'odontologos'
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:57] Buscando el odontólogo por id 1
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:65] Conexión establecida con la base de datos
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:72] Se ejecutó la sentencia SELECT
+[2022-06-0301:15:35] [ INFO ] [OdontologoDAOH2:81] Obtenido el odontologo: Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:46] Guardando el odontológo: Odontologo{id=2, matricula='123', nombre='Delfina', apellido='Feraud'}
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:54] Conexión establecida con la base de datos
+[2022-06-0301:29:56] [ ERROR] [OdontologoDAOH2:68] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGOS(ID) ( /* key:0 */ 2, '234', 'Tomas', 'Arce')"; SQL statement:
+INSERT INTO odontologos (id, matricula, nombre, apellido) VALUES (?,?,?,?) [23505-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:120)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:63)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:11)
+	at com.company.service.OdontologoService.guardar(OdontologoService.java:26)
+	at com.company.test.OdontologoServiceTest.listarTodosTest(OdontologoServiceTest.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:46] Guardando el odontológo: Odontologo{id=3, matricula='234', nombre='Tomas', apellido='Arce'}
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:54] Conexión establecida con la base de datos
+[2022-06-0301:29:56] [ ERROR] [OdontologoDAOH2:68] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGOS(ID) ( /* key:0 */ 3, '345', 'Camila', 'Prado')"; SQL statement:
+INSERT INTO odontologos (id, matricula, nombre, apellido) VALUES (?,?,?,?) [23505-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:120)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:63)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:11)
+	at com.company.service.OdontologoService.guardar(OdontologoService.java:26)
+	at com.company.test.OdontologoServiceTest.listarTodosTest(OdontologoServiceTest.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:46] Guardando el odontológo: Odontologo{id=4, matricula='345', nombre='Camila', apellido='Prado'}
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:54] Conexión establecida con la base de datos
+[2022-06-0301:29:56] [ ERROR] [OdontologoDAOH2:68] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGOS(ID) ( /* key:0 */ 4, '365', 'Martin', 'Gonzalez')"; SQL statement:
+INSERT INTO odontologos (id, matricula, nombre, apellido) VALUES (?,?,?,?) [23505-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:120)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:63)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:11)
+	at com.company.service.OdontologoService.guardar(OdontologoService.java:26)
+	at com.company.test.OdontologoServiceTest.listarTodosTest(OdontologoServiceTest.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:112] Buscando todos los odontólogos de la tabla
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:121] Conexión establecida con la base de datos
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:126] Se ejecutó la sentencia SELECT
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}]
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}]
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}]
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}]
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}]
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=6, matricula='234', nombre='Tomas', apellido='Arce'}]
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=6, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=7, matricula='345', nombre='Camila', apellido='Prado'}]
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=6, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=7, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=8, matricula='365', nombre='Martin', apellido='Gonzalez'}]
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:112] Buscando todos los odontólogos de la tabla
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:121] Conexión establecida con la base de datos
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:126] Se ejecutó la sentencia SELECT
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}]
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}]
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}]
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}]
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}]
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=6, matricula='234', nombre='Tomas', apellido='Arce'}]
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=6, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=7, matricula='345', nombre='Camila', apellido='Prado'}]
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=6, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=7, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=8, matricula='365', nombre='Martin', apellido='Gonzalez'}]
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:46] Guardando el odontológo: Odontologo{id=1, matricula='365', nombre='Martin', apellido='Gonzalez'}
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:54] Conexión establecida con la base de datos
+[2022-06-0301:29:56] [ ERROR] [OdontologoDAOH2:68] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGOS(ID) ( /* key:1 */ 1, '123', 'Delfina', 'Feraud')"; SQL statement:
+INSERT INTO odontologos (id, matricula, nombre, apellido) VALUES (?,?,?,?) [23505-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:120)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:63)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:11)
+	at com.company.service.OdontologoService.guardar(OdontologoService.java:26)
+	at com.company.test.OdontologoServiceTest.guardarTest(OdontologoServiceTest.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:76] Buscando el odontólogo por id 1
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:84] Conexión establecida con la base de datos
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:90] Se ejecutó la sentencia SELECT
+[2022-06-0301:29:56] [ INFO ] [OdontologoDAOH2:99] Obtenido el odontologo: Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:46] Guardando el odontológo: Odontologo{id=2, matricula='123', nombre='Delfina', apellido='Feraud'}
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:54] Conexión establecida con la base de datos
+[2022-06-0301:31:48] [ ERROR] [OdontologoDAOH2:68] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGOS(ID) ( /* key:0 */ 2, '234', 'Tomas', 'Arce')"; SQL statement:
+INSERT INTO odontologos (id, matricula, nombre, apellido) VALUES (?,?,?,?) [23505-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:120)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:63)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:11)
+	at com.company.service.OdontologoService.guardar(OdontologoService.java:26)
+	at com.company.test.OdontologoServiceTest.listarTodosTest(OdontologoServiceTest.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:46] Guardando el odontológo: Odontologo{id=3, matricula='234', nombre='Tomas', apellido='Arce'}
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:54] Conexión establecida con la base de datos
+[2022-06-0301:31:48] [ ERROR] [OdontologoDAOH2:68] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGOS(ID) ( /* key:0 */ 3, '345', 'Camila', 'Prado')"; SQL statement:
+INSERT INTO odontologos (id, matricula, nombre, apellido) VALUES (?,?,?,?) [23505-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:120)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:63)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:11)
+	at com.company.service.OdontologoService.guardar(OdontologoService.java:26)
+	at com.company.test.OdontologoServiceTest.listarTodosTest(OdontologoServiceTest.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:46] Guardando el odontológo: Odontologo{id=4, matricula='345', nombre='Camila', apellido='Prado'}
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:54] Conexión establecida con la base de datos
+[2022-06-0301:31:48] [ ERROR] [OdontologoDAOH2:68] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGOS(ID) ( /* key:0 */ 4, '365', 'Martin', 'Gonzalez')"; SQL statement:
+INSERT INTO odontologos (id, matricula, nombre, apellido) VALUES (?,?,?,?) [23505-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:120)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:63)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:11)
+	at com.company.service.OdontologoService.guardar(OdontologoService.java:26)
+	at com.company.test.OdontologoServiceTest.listarTodosTest(OdontologoServiceTest.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:112] Buscando todos los odontólogos de la tabla
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:121] Conexión establecida con la base de datos
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:126] Se ejecutó la sentencia SELECT
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}]
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}]
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}]
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}]
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}]
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=6, matricula='234', nombre='Tomas', apellido='Arce'}]
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=6, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=7, matricula='345', nombre='Camila', apellido='Prado'}]
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=6, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=7, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=8, matricula='365', nombre='Martin', apellido='Gonzalez'}]
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:112] Buscando todos los odontólogos de la tabla
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:121] Conexión establecida con la base de datos
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:126] Se ejecutó la sentencia SELECT
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}]
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}]
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}]
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}]
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}]
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=6, matricula='234', nombre='Tomas', apellido='Arce'}]
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=6, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=7, matricula='345', nombre='Camila', apellido='Prado'}]
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=6, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=7, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=8, matricula='365', nombre='Martin', apellido='Gonzalez'}]
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:46] Guardando el odontológo: Odontologo{id=1, matricula='365', nombre='Martin', apellido='Gonzalez'}
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:54] Conexión establecida con la base de datos
+[2022-06-0301:31:48] [ ERROR] [OdontologoDAOH2:68] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGOS(ID) ( /* key:1 */ 1, '123', 'Delfina', 'Feraud')"; SQL statement:
+INSERT INTO odontologos (id, matricula, nombre, apellido) VALUES (?,?,?,?) [23505-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:120)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:63)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:11)
+	at com.company.service.OdontologoService.guardar(OdontologoService.java:26)
+	at com.company.test.OdontologoServiceTest.guardarTest(OdontologoServiceTest.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:76] Buscando el odontólogo por id 1
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:84] Conexión establecida con la base de datos
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:90] Se ejecutó la sentencia SELECT
+[2022-06-0301:31:48] [ INFO ] [OdontologoDAOH2:99] Obtenido el odontologo: Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:46] Guardando el odontológo: Odontologo{id=2, matricula='123', nombre='Delfina', apellido='Feraud'}
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:54] Conexión establecida con la base de datos
+[2022-06-0301:34:40] [ ERROR] [OdontologoDAOH2:68] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGOS(ID) ( /* key:0 */ 2, '234', 'Tomas', 'Arce')"; SQL statement:
+INSERT INTO odontologos (id, matricula, nombre, apellido) VALUES (?,?,?,?) [23505-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:120)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:63)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:11)
+	at com.company.service.OdontologoService.guardar(OdontologoService.java:26)
+	at com.company.test.OdontologoServiceTest.listarTodosTest(OdontologoServiceTest.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:46] Guardando el odontológo: Odontologo{id=3, matricula='234', nombre='Tomas', apellido='Arce'}
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:54] Conexión establecida con la base de datos
+[2022-06-0301:34:40] [ ERROR] [OdontologoDAOH2:68] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGOS(ID) ( /* key:0 */ 3, '345', 'Camila', 'Prado')"; SQL statement:
+INSERT INTO odontologos (id, matricula, nombre, apellido) VALUES (?,?,?,?) [23505-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:120)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:63)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:11)
+	at com.company.service.OdontologoService.guardar(OdontologoService.java:26)
+	at com.company.test.OdontologoServiceTest.listarTodosTest(OdontologoServiceTest.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:46] Guardando el odontológo: Odontologo{id=4, matricula='345', nombre='Camila', apellido='Prado'}
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:54] Conexión establecida con la base de datos
+[2022-06-0301:34:40] [ ERROR] [OdontologoDAOH2:68] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGOS(ID) ( /* key:0 */ 4, '365', 'Martin', 'Gonzalez')"; SQL statement:
+INSERT INTO odontologos (id, matricula, nombre, apellido) VALUES (?,?,?,?) [23505-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:120)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:63)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:11)
+	at com.company.service.OdontologoService.guardar(OdontologoService.java:26)
+	at com.company.test.OdontologoServiceTest.listarTodosTest(OdontologoServiceTest.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:112] Buscando todos los odontólogos de la tabla
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:121] Conexión establecida con la base de datos
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:126] Se ejecutó la sentencia SELECT
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}]
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}]
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}]
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}]
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}]
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=6, matricula='234', nombre='Tomas', apellido='Arce'}]
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=6, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=7, matricula='345', nombre='Camila', apellido='Prado'}]
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=6, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=7, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=8, matricula='365', nombre='Martin', apellido='Gonzalez'}]
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:112] Buscando todos los odontólogos de la tabla
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:121] Conexión establecida con la base de datos
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:126] Se ejecutó la sentencia SELECT
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}]
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}]
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}]
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}]
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}]
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=6, matricula='234', nombre='Tomas', apellido='Arce'}]
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=6, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=7, matricula='345', nombre='Camila', apellido='Prado'}]
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=2, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=3, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=4, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=5, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=6, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=7, matricula='345', nombre='Camila', apellido='Prado'}, Odontologo{id=8, matricula='365', nombre='Martin', apellido='Gonzalez'}]
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:46] Guardando el odontológo: Odontologo{id=1, matricula='365', nombre='Martin', apellido='Gonzalez'}
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:54] Conexión establecida con la base de datos
+[2022-06-0301:34:40] [ ERROR] [OdontologoDAOH2:68] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGOS(ID) ( /* key:1 */ 1, '123', 'Delfina', 'Feraud')"; SQL statement:
+INSERT INTO odontologos (id, matricula, nombre, apellido) VALUES (?,?,?,?) [23505-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:120)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:63)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:11)
+	at com.company.service.OdontologoService.guardar(OdontologoService.java:26)
+	at com.company.test.OdontologoServiceTest.guardarTest(OdontologoServiceTest.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:76] Buscando el odontólogo por id 1
+[2022-06-0301:34:40] [ INFO ] [OdontologoDAOH2:84] Conexión establecida con la base de datos
+[2022-06-0301:34:41] [ INFO ] [OdontologoDAOH2:90] Se ejecutó la sentencia SELECT
+[2022-06-0301:34:41] [ INFO ] [OdontologoDAOH2:99] Obtenido el odontologo: Odontologo{id=1, matricula='123', nombre='Delfina', apellido='Feraud'}
+[2022-06-0314:31:24] [ INFO ] [OdontologoDAOH2:46] Guardando el odontológo: Odontologo{id=0, matricula='365', nombre='Martin', apellido='Gonzalez'}
+[2022-06-0314:31:24] [ ERROR] [OdontologoDAOH2:68] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:165)
+	at org.h2.mvstore.db.Store.<init>(Store.java:144)
+	at org.h2.engine.Database.<init>(Database.java:324)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:53)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:11)
+	at com.company.service.OdontologoService.guardar(OdontologoService.java:26)
+	at com.company.test.OdontologoServiceTest.guardarTest(OdontologoServiceTest.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/delfina.feraud/db_odontologos.mv.db [2.1.212/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:1004)
+	at org.h2.mvstore.FileStore.open(FileStore.java:163)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:449)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:4118)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	... 38 more
+[2022-06-0314:31:24] [ INFO ] [OdontologoDAOH2:76] Buscando el odontólogo por id 1
+[2022-06-0314:31:24] [ ERROR] [OdontologoDAOH2:104] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:165)
+	at org.h2.mvstore.db.Store.<init>(Store.java:144)
+	at org.h2.engine.Database.<init>(Database.java:324)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at com.company.dao.OdontologoDAOH2.buscarPorId(OdontologoDAOH2.java:83)
+	at com.company.dao.OdontologoDAOH2.buscarPorId(OdontologoDAOH2.java:11)
+	at com.company.service.OdontologoService.buscarPorId(OdontologoService.java:30)
+	at com.company.test.OdontologoServiceTest.guardarTest(OdontologoServiceTest.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/delfina.feraud/db_odontologos.mv.db [2.1.212/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:1004)
+	at org.h2.mvstore.FileStore.open(FileStore.java:163)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:449)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:4118)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	... 38 more
+[2022-06-0314:32:39] [ INFO ] [OdontologoDAOH2:46] Guardando el odontológo: Odontologo{id=0, matricula='365', nombre='Martin', apellido='Gonzalez'}
+[2022-06-0314:32:40] [ INFO ] [OdontologoDAOH2:54] Conexión establecida con la base de datos
+[2022-06-0314:32:40] [ ERROR] [OdontologoDAOH2:68] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLDataException: Invalid value "4" for parameter "parameterIndex" [90008-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:646)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:298)
+	at org.h2.jdbc.JdbcPreparedStatement.setParameter(JdbcPreparedStatement.java:1395)
+	at org.h2.jdbc.JdbcPreparedStatement.setString(JdbcPreparedStatement.java:378)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:61)
+	at com.company.dao.OdontologoDAOH2.guardar(OdontologoDAOH2.java:11)
+	at com.company.service.OdontologoService.guardar(OdontologoService.java:26)
+	at com.company.test.OdontologoServiceTest.guardarTest(OdontologoServiceTest.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+[2022-06-0314:32:40] [ INFO ] [OdontologoDAOH2:76] Buscando el odontólogo por id 1
+[2022-06-0314:32:40] [ INFO ] [OdontologoDAOH2:84] Conexión establecida con la base de datos
+[2022-06-0314:32:40] [ INFO ] [OdontologoDAOH2:90] Se ejecutó la sentencia SELECT
+[2022-06-0315:50:53] [ INFO ] [OdontologoDAOH2:46] Guardando el odontológo: Odontologo{id=0, matricula='365', nombre='Martin', apellido='Gonzalez'}
+[2022-06-0315:50:54] [ INFO ] [OdontologoDAOH2:54] Conexión establecida con la base de datos
+[2022-06-0315:50:54] [ INFO ] [OdontologoDAOH2:64] Nuevo registro insertado en la tabla 'odontologos'
+[2022-06-0315:50:54] [ INFO ] [OdontologoDAOH2:76] Buscando el odontólogo por id 1
+[2022-06-0315:50:54] [ INFO ] [OdontologoDAOH2:84] Conexión establecida con la base de datos
+[2022-06-0315:50:54] [ INFO ] [OdontologoDAOH2:90] Se ejecutó la sentencia SELECT
+[2022-06-0315:51:18] [ INFO ] [OdontologoDAOH2:46] Guardando el odontológo: Odontologo{id=0, matricula='123', nombre='Delfina', apellido='Feraud'}
+[2022-06-0315:51:18] [ INFO ] [OdontologoDAOH2:54] Conexión establecida con la base de datos
+[2022-06-0315:51:18] [ INFO ] [OdontologoDAOH2:64] Nuevo registro insertado en la tabla 'odontologos'
+[2022-06-0315:51:18] [ INFO ] [OdontologoDAOH2:46] Guardando el odontológo: Odontologo{id=0, matricula='234', nombre='Tomas', apellido='Arce'}
+[2022-06-0315:51:18] [ INFO ] [OdontologoDAOH2:54] Conexión establecida con la base de datos
+[2022-06-0315:51:18] [ INFO ] [OdontologoDAOH2:64] Nuevo registro insertado en la tabla 'odontologos'
+[2022-06-0315:51:18] [ INFO ] [OdontologoDAOH2:46] Guardando el odontológo: Odontologo{id=0, matricula='345', nombre='Camila', apellido='Prado'}
+[2022-06-0315:51:18] [ INFO ] [OdontologoDAOH2:54] Conexión establecida con la base de datos
+[2022-06-0315:51:18] [ INFO ] [OdontologoDAOH2:64] Nuevo registro insertado en la tabla 'odontologos'
+[2022-06-0315:51:18] [ INFO ] [OdontologoDAOH2:112] Buscando todos los odontólogos de la tabla
+[2022-06-0315:51:18] [ INFO ] [OdontologoDAOH2:121] Conexión establecida con la base de datos
+[2022-06-0315:51:18] [ INFO ] [OdontologoDAOH2:126] Se ejecutó la sentencia SELECT
+[2022-06-0315:51:18] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=9, matricula='365', nombre='Martin', apellido='Gonzalez'}]
+[2022-06-0315:51:18] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=9, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=10, matricula='123', nombre='Delfina', apellido='Feraud'}]
+[2022-06-0315:51:18] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=9, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=10, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=11, matricula='234', nombre='Tomas', apellido='Arce'}]
+[2022-06-0315:51:18] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=9, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=10, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=11, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=12, matricula='345', nombre='Camila', apellido='Prado'}]
+[2022-06-0315:51:18] [ INFO ] [OdontologoDAOH2:112] Buscando todos los odontólogos de la tabla
+[2022-06-0315:51:18] [ INFO ] [OdontologoDAOH2:121] Conexión establecida con la base de datos
+[2022-06-0315:51:18] [ INFO ] [OdontologoDAOH2:126] Se ejecutó la sentencia SELECT
+[2022-06-0315:51:18] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=9, matricula='365', nombre='Martin', apellido='Gonzalez'}]
+[2022-06-0315:51:18] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=9, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=10, matricula='123', nombre='Delfina', apellido='Feraud'}]
+[2022-06-0315:51:18] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=9, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=10, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=11, matricula='234', nombre='Tomas', apellido='Arce'}]
+[2022-06-0315:51:18] [ INFO ] [OdontologoDAOH2:136] Lista de odontologos obtenida: [Odontologo{id=9, matricula='365', nombre='Martin', apellido='Gonzalez'}, Odontologo{id=10, matricula='123', nombre='Delfina', apellido='Feraud'}, Odontologo{id=11, matricula='234', nombre='Tomas', apellido='Arce'}, Odontologo{id=12, matricula='345', nombre='Camila', apellido='Prado'}]
